@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    min-width: 300px;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.blankCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    width: 196px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: black;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+
+.tarot {
+    background-size: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+
+}
